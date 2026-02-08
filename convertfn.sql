@@ -1,0 +1,4 @@
+SELECT CAST('26-1-5' AS DATE);
+SELECT CONVERT(123,CHAR);
+SELECT IFNULL(NULL,'NA');
+SELECT COALESCE(NULL,NULL,'Default'); # Returns first non-null value
